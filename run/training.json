@@ -1,0 +1,38 @@
+{
+  "periods": {
+    "train": [
+      "2023-01-01",
+      "2023-08-28"
+    ],
+    "validation": [
+      "2023-08-29",
+      "2023-10-15"
+    ],
+    "calibration": [
+      "2023-10-16",
+      "2023-11-13"
+    ],
+    "test": [
+      "2023-11-14",
+      "2023-12-31"
+    ]
+  },
+  "training_departures": 23100,
+  "dataset_sha256": "ad48620a8890692a1448b374745edcd7f6164e88f46be3f26a418df4e1bb2d9d",
+  "seed": 42,
+  "versions": {
+    "pandas": "2.2.3",
+    "pyarrow": "26.0.0",
+    "numpy": "2.2.2",
+    "catboost": "1.2.8",
+    "xgboost": "3.1.2",
+    "torch": "2.8.0"
+  },
+  "models": {
+    "Historical baseline": "model_1.joblib",
+    "CatBoost": "model_2.joblib",
+    "XGBoost": "model_3.joblib",
+    "LSTM": "model_4.joblib",
+    "BiLSTM": "model_5.joblib"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "winner": "XGBoost",
+  "selection_rule": "Lowest validation MAE, then RMSE, then model name",
+  "validation": {
+    "Historical baseline": {
+      "departures": 4616,
+      "mae": 7.529246100519931,
+      "rmse": 10.114230584278689,
+      "wape_pct": 19.038098107419682,
+      "mean_error": 4.641681109185442
+    },
+    "CatBoost": {
+      "departures": 4616,
+      "mae": 6.019281910049962,
+      "rmse": 7.826014190247548,
+      "wape_pct": 15.220073565112225,
+      "mean_error": 0.6771616277575189
+    },
+    "XGBoost": {
+      "departures": 4616,
+      "mae": 5.915321533973337,
+      "rmse": 7.782791798026832,
+      "wape_pct": 14.957204240267822,
+      "mean_error": 0.6917311112223713
+    },
+    "LSTM": {
+      "departures": 4616,
+      "mae": 6.643612547185227,
+      "rmse": 8.38934561355463,
+      "wape_pct": 16.79872669486292,
+      "mean_error": -1.571119707213324
+    },
+    "BiLSTM": {
+      "departures": 4616,
+      "mae": 6.6616788418702075,
+      "rmse": 8.409792436822563,
+      "wape_pct": 16.84440827918867,
+      "mean_error": -1.6207075057037987
+    }
+  },
+  "calibration_departures": 2798,
+  "interval_radius": 12.430915832519531
+}
